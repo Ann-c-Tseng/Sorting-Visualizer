@@ -69,7 +69,7 @@ async function partition(l, r, delay=700){
     var i = l-1; //initial value of -1 as l = 0.
 
     blocks[r].style.backgroundColor = "red";
-    document.getElementsByClassName("range")[0].innerText = `[${l}, ${r}]`;
+    document.getElementsByClassName("range")[0].innerText = `[Left: ${l}, Right: ${r}]`;
 
     //From the left to the second-to-last element in the array, do the following:
     //If we find a block with value < pivot, swap it with the blocks[i] value. Values < pivot will be orange.
