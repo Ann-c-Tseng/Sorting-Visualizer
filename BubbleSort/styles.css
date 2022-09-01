@@ -1,3 +1,4 @@
+/* General Styling */
 *{ 
     margin: 0; 
     padding: 0; 
@@ -35,4 +36,51 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+/* Bubble Sort Styling */
+#array {
+    background-color: rgb(255, 255, 255);
+    height: 278px;
+    width: 598px;
+    margin: auto;
+    position: relative;
+    margin-top: 64px;
+}
+
+.block {
+    width: 28px;
+    background-color: purple;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+}
+
+.block_id {
+    position: absolute;
+    color: black;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+}
+
+#count {
+    height: 20px;
+    width: 598px;
+    margin: auto;
+}
+
+.block2 {
+    width: 28px;
+    background-color: black;
+    position: absolute;
+    transition: 0.2s all ease;
+}
+
+.block_id2 {
+    position: absolute;
+    color: white;
+    margin-top: 1px;
+    width: 100%;
+    text-align: center;
 }

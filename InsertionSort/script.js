@@ -117,7 +117,7 @@ async function insertionSort(n){
         blocks[j+1].style.backgroundColor = "purple";
     }
 
-    document.getElementsByClassName("range")[0].innerText = `Insertion Sort is Completed`;
+    document.getElementsByClassName("range")[0].innerText = `Insertion Sort is Now Complete`;
 
 }
 
