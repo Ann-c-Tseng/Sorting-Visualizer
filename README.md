@@ -3,5 +3,5 @@ This sorting visualizer for Quick Sort, Merge Sort, Insertion Sort, and Bubble S
 
 Check out this project! 
 <a href="https://ann-c-tseng.github.io/Sorting-Visualizer/QuickSort/QSindex.html"> View Project </a> <br>
-(Please manually open the project on a new tab as Markdown does not support target="_blank" attribute)
+(Please manually open the project in a new tab as Markdown does not support target="_blank" attribute)
 
